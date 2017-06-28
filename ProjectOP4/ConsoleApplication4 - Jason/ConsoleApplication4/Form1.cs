@@ -11,12 +11,15 @@ using System.Windows.Forms;
 
 namespace ConsoleApplication4
 {
-  
+
 
     public partial class Form1 : Form
     {
 
         public int drop_speed = 5;
+        public int score = 0;
+        static Random _r = new Random();
+        public int End_Game = 0;
 
         static void Main()
         {
@@ -60,15 +63,57 @@ namespace ConsoleApplication4
 
         }
 
+        void DisplayScore()
+        {
+            try
+            {
+                Form.ActiveForm.Text = "Catcher Score:  " + score;
+            }
+            catch (Exception ex) { String s = ex.ToString(); }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             PbBlock.Top += drop_speed;
             int ground = PBchar.Top + PBchar.Height - 45;
             if (PbBlock.Top > ground)
             {
+                End_Game++;
                 PbBlock.Top = 0;
+                drop_speed += 1;
+
+                PbBlock.Top = 0;
+                DisplayScore();
+                try
+                {
+                    PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    Form.ActiveForm.Text = "Catcher Score:  " + score;
+                }
+                catch (Exception ex) { String s = ex.ToString(); }
+                DisplayScore();
+            }
+
+            if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
+            {
+                score++;
+                PbBlock.Top = 0;
+                drop_speed += 1;
+
+                PbBlock.Top = 0;
+                try
+                {
+                    PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    Form.ActiveForm.Text = "Catcher Score:  " + score;
+                }
+                catch (Exception ex) { String s = ex.ToString(); }
+                DisplayScore();
+            }
+            else if (End_Game == 3)
+            {
+                Application.Exit();
             }
         }
     }
 }
+
 
