@@ -16,3 +16,12 @@ C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ConsoleApplication4\ConsoleAppli
 C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csproj.GenerateResource.Cache
 C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
 C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\obj\Debug\ConsoleApplication4.Form1.resources
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\obj\Debug\ConsoleApplication4.Properties.Resources.resources
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\obj\Debug\ConsoleApplication4.csproj.GenerateResource.Cache
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -Jason\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
