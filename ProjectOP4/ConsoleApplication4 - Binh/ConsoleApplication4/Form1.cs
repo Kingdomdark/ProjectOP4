@@ -79,23 +79,22 @@ namespace ConsoleApplication4
                 }
                 catch (Exception ex) { String s = ex.ToString(); }
 
-                if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
-                {
-                    score++;
-                    PbBlock.Top = 0;
-                    drop_speed += 1;
-
-                    PbBlock.Top = 0;
+            if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
+            {
+                score++;
+                PbBlock.Top = 0;
+                drop_speed += 1;
                     try
                     {
                         PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
                     }
-                    catch (Exception ex) { String s = ex.ToString();
-                    }
+                    catch (Exception ex) { String s = ex.ToString(); }
+                }
                 }
             }
         }
     }
-}
+
+
 
 
