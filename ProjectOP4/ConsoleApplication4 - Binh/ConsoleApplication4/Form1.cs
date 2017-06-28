@@ -11,13 +11,14 @@ using System.Windows.Forms;
 
 namespace ConsoleApplication4
 {
-  
+
 
     public partial class Form1 : Form
     {
 
         public int drop_speed = 5;
         public int score = 0;
+        static Random _r = new Random();
 
         static void Main()
         {
@@ -70,15 +71,31 @@ namespace ConsoleApplication4
                 score--;
                 PbBlock.Top = 0;
                 drop_speed += 1;
-            }
 
-            if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
-            {
-                score++;
                 PbBlock.Top = 0;
-                drop_speed += 1;
+                try
+                {
+                    PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                }
+                catch (Exception ex) { String s = ex.ToString(); }
+
+                if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
+                {
+                    score++;
+                    PbBlock.Top = 0;
+                    drop_speed += 1;
+
+                    PbBlock.Top = 0;
+                    try
+                    {
+                        PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    }
+                    catch (Exception ex) { String s = ex.ToString();
+                    }
+                }
             }
         }
     }
 }
+
 
