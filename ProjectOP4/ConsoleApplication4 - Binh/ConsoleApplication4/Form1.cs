@@ -77,8 +77,9 @@ namespace ConsoleApplication4
                 {
                     PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
                 }
-                catch (Exception ex) { String s = ex.ToString(); }
-
+                catch (Exception ex) { String s = ex.ToString();
+                }
+                }
             if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
             {
                 score++;
@@ -93,7 +94,6 @@ namespace ConsoleApplication4
                 }
             }
         }
-    }
 
 
 
