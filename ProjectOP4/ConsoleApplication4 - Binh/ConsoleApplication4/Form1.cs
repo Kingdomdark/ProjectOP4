@@ -20,12 +20,6 @@ namespace ConsoleApplication4
         public int score = 0;
         static Random _r = new Random();
 
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
         public Form1()
         {
             InitializeComponent();
