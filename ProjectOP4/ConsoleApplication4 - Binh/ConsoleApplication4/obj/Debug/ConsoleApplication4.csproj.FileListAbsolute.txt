@@ -43,3 +43,12 @@ C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 -
 C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.csproj.GenerateResource.Cache
 C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
 C:\Users\JasonTjauw\Documents\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.Form1.resources
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.Properties.Resources.resources
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.csproj.GenerateResource.Cache
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb

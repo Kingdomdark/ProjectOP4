@@ -17,6 +17,7 @@ namespace ConsoleApplication4
     {
 
         public int drop_speed = 5;
+        public int score = 0;
 
         static void Main()
         {
@@ -66,7 +67,16 @@ namespace ConsoleApplication4
             int ground = PBchar.Top + PBchar.Height - 45;
             if (PbBlock.Top > ground)
             {
+                score--;
                 PbBlock.Top = 0;
+                drop_speed += 1;
+            }
+
+            if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
+            {
+                score++;
+                PbBlock.Top = 0;
+                drop_speed += 1;
             }
         }
     }
