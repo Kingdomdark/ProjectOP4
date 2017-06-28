@@ -34,8 +34,14 @@ namespace ConsoleApplication4
             int x = PBchar.Location.X;
             int y = PBchar.Location.Y;
 
-            if (e.KeyCode == Keys.Right) x += 15;
-            else if (e.KeyCode == Keys.Left) x -= 15;
+            if (PBchar.Right + (PBchar.Width / 3) < Form1.ActiveForm.Width)
+            {
+                if (e.KeyCode == Keys.Right) x += 15;
+            }
+            if (PBchar.Left > 0)
+            {
+                if (e.KeyCode == Keys.Left) x -= 15;
+            }
 
             PBchar.Location = new Point(x, y);
         }
