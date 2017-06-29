@@ -92,6 +92,12 @@
   <ItemGroup>
     <None Include="Resources\zo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roblox_Death_Sound_Effect.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roblox_Death_Sound_Effect.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
