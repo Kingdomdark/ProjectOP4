@@ -28,6 +28,8 @@ namespace ConsoleApplication4
         {
             Form1 frm = new Form1();
             frm.Show();
+            
+            
         }
 
         private void button3_Click(object sender, EventArgs e)

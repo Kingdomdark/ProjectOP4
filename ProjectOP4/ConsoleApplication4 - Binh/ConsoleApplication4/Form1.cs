@@ -16,7 +16,7 @@ namespace ConsoleApplication4
     public partial class Form1 : Form
     {
 
-        public int drop_speed = 5;
+        public int drop_speed = 50;
         public int score = 0;
         static Random _r = new Random();
         public int End_Game = 0;
@@ -101,7 +101,9 @@ namespace ConsoleApplication4
             }
             else if (End_Game == 3)
             {
-                Application.Exit();
+                End_Game = 0;
+                MessageBox.Show("You Lose!");
+                
             }
         }
     }
