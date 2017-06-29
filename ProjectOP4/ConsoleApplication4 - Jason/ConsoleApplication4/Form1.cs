@@ -21,12 +21,6 @@ namespace ConsoleApplication4
         static Random _r = new Random();
         public int End_Game = 0;
 
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
         public Form1()
         {
             InitializeComponent();
@@ -58,7 +52,7 @@ namespace ConsoleApplication4
             // no larger than screen size
             this.MaximumSize = new System.Drawing.Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
 
-            this.AutoSize = true;
+            this.AutoSize = false;
             this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
 
         }
@@ -79,11 +73,11 @@ namespace ConsoleApplication4
             if (PbBlock.Top > ground)
             {
                 End_Game++;
+                score--;
                 PbBlock.Top = 0;
                 drop_speed += 1;
 
                 PbBlock.Top = 0;
-                DisplayScore();
                 try
                 {
                     PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
@@ -92,19 +86,16 @@ namespace ConsoleApplication4
                 catch (Exception ex) { String s = ex.ToString(); }
                 DisplayScore();
             }
-
             if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
             {
                 score++;
                 PbBlock.Top = 0;
                 drop_speed += 1;
-
-                PbBlock.Top = 0;
-                try
-                {
-                    PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
-                    Form.ActiveForm.Text = "Catcher Score:  " + score;
-                }
+                    try
+                    {
+                        PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                        Form.ActiveForm.Text = "Catcher Score:  " + score;
+                    }
                 catch (Exception ex) { String s = ex.ToString(); }
                 DisplayScore();
             }
@@ -115,5 +106,7 @@ namespace ConsoleApplication4
         }
     }
 }
+
+
 
 

@@ -19,6 +19,7 @@ namespace ConsoleApplication4
         public int drop_speed = 5;
         public int score = 0;
         static Random _r = new Random();
+        public int End_Game = 0;
 
         public Form1()
         {
@@ -56,12 +57,22 @@ namespace ConsoleApplication4
 
         }
 
+        void DisplayScore()
+        {
+            try
+            {
+                Form.ActiveForm.Text = "Catcher Score:  " + score;
+            }
+            catch (Exception ex) { String s = ex.ToString(); }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             PbBlock.Top += drop_speed;
             int ground = PBchar.Top + PBchar.Height - 45;
             if (PbBlock.Top > ground)
             {
+                End_Game++;
                 score--;
                 PbBlock.Top = 0;
                 drop_speed += 1;
@@ -70,10 +81,11 @@ namespace ConsoleApplication4
                 try
                 {
                     PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    Form.ActiveForm.Text = "Catcher Score:  " + score;
                 }
-                catch (Exception ex) { String s = ex.ToString();
-                }
-                }
+                catch (Exception ex) { String s = ex.ToString(); }
+                DisplayScore();
+            }
             if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
             {
                 score++;
@@ -82,12 +94,18 @@ namespace ConsoleApplication4
                     try
                     {
                         PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                        Form.ActiveForm.Text = "Catcher Score:  " + score;
                     }
-                    catch (Exception ex) { String s = ex.ToString(); }
-                }
-                }
+                catch (Exception ex) { String s = ex.ToString(); }
+                DisplayScore();
+            }
+            else if (End_Game == 3)
+            {
+                Application.Exit();
             }
         }
+    }
+}
 
 
 
