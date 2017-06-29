@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/labin/OneDrive/documenten/visual studio 2017/Projects/Game1/Game1/Content/bombblock.png</File>
-    <File>C:/Users/labin/OneDrive/documenten/visual studio 2017/Projects/Game1/Game1/Content/pointblock.png</File>
-    <File>C:/Users/labin/OneDrive/documenten/visual studio 2017/Projects/Game1/Game1/Content/player.jpg</File>
+    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/bombblock.png</File>
+    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/pointblock.png</File>
+    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/player.jpg</File>
   </SourceFiles>
 </SourceFileCollection>

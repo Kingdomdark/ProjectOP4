@@ -12,10 +12,6 @@ namespace Game1
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Texture2D player;
-        Texture2D pointblock;
-        Texture2D bombblock;
-
         Player player1;
         public Game1()
         {
@@ -23,112 +19,12 @@ namespace Game1
             Content.RootDirectory = "Content";
 
             graphics.IsFullScreen = false;
-            player1 = new Player(new Vector2(0, 380), Color.White);
+           // player1 = new Player(new Vector2(0, 380), Color.White);
 
 
         }
 
-
-        public class Player
-        {
-            private Texture2D player;
-            public Vector2 position;
-            private Color color;
-
-            public Player(Vector2 position, Color color)
-            {
-                this.position = position;
-                this.color = color;
-            }
-
-            public void SetSprite(Texture2D player)
-            {
-                this.player = player;
-            }
-            public void Draw(SpriteBatch spriteBatch) //Method to draw the Player Block
-            {
-                spriteBatch.Draw(player, position, color);
-            }
-            public void Movement(KeyboardState CurrentState)
-            {
-                if (CurrentState.IsKeyDown(Keys.Left) == true)
-                {
-                    this.position.Y -=1;
-                }
-
-                if (CurrentState.IsKeyDown(Keys.Right)== true)
-                {
-                    this.position.Y += 1;
-                }
-            }
-
-
-        }
-
-        public abstract class Blocks
-        {
-            public static Blocks Create(int id)
-            {
-                if ((id == 1))
-                {
-                    return new PointBlock(new Vector2(200, 200), Color.White);
-                }
-                else
-                {
-                    return new BombBlock(new Vector2(200, 200), Color.White);
-                }
-//                else
-//                {
- //                   throw new Exception("wrong input mate");
-  //              }
-            }
-        }
-
-        public class PointBlock : Blocks
-        {
-            public Texture2D pointblock;
-            public Vector2 position;
-            private Color color;
-
-            public PointBlock(Vector2 position, Color color) : base()
-            {
-                this.position = position;
-                this.color = color;
-            }
-
-            public void SetSprite(Texture2D pointblock)
-            {
-                this.pointblock = pointblock;
-            }
-            public void Update()
-            {
-                position.X = position.X - 10;
-            }
-        }
-
-
-        public class BombBlock : Blocks
-        {
-            public Texture2D bombblock;
-            public Vector2 position;
-            private Color color;
-
-            public BombBlock(Vector2 position, Color color) : base()
-            {
-                this.position = position;
-                this.color = color;
-            }
-
-            public void SetSprite(Texture2D bombblock)
-            {
-                this.bombblock = bombblock;
-            }
-            public void Update()
-            {
-                position.X = position.X - 10;
-            }
-        }
-
+        
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
         /// This is where it can query for any required services and load any non-graphic
@@ -184,14 +80,14 @@ namespace Game1
 
             // TODO: Add your update logic here
             KeyboardState kbstate = Keyboard.GetState();
-            if (kbstate.IsKeyDown(Keys.Left) == true)
+            if (kbstate.IsKeyDown(Keys.Left) == true && player1.position.X > 0)
             {
-                player1.position.X -= 1;
+                player1.position.X -= 10;
             }
 
-            if (kbstate.IsKeyDown(Keys.Right) == true)
+            if (kbstate.IsKeyDown(Keys.Right) == true && player1.position.X +666 < GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width)
             {
-                player1.position.X += 1;
+                player1.position.X += 10;
             }
             base.Update(gameTime);
         }

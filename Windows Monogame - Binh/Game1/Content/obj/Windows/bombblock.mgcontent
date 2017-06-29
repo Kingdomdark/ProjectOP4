@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/labin/OneDrive/documenten/visual studio 2017/Projects/Game1/Game1/Content/bombblock.png</SourceFile>
+  <SourceFile>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/bombblock.png</SourceFile>
   <SourceTime>2017-06-29T14:01:20.4820149+02:00</SourceTime>
-  <DestFile>C:/Users/labin/OneDrive/documenten/visual studio 2017/Projects/Game1/Game1/Content/bin/Windows/bombblock.xnb</DestFile>
-  <DestTime>2017-06-29T14:02:39.9690892+02:00</DestTime>
+  <DestFile>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/bin/Windows/bombblock.xnb</DestFile>
+  <DestTime>2017-06-29T16:59:48.7061386+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
