@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Android</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/liwei/OneDrive/documenten/visual studio 2017/Projects/Project 4 App2/Project 4 App2/Content/bombblock.png</File>
+    <File>C:/Users/liwei/OneDrive/documenten/visual studio 2017/Projects/Project 4 App2/Project 4 App2/Content/pointblock.png</File>
+    <File>C:/Users/liwei/OneDrive/documenten/visual studio 2017/Projects/Project 4 App2/Project 4 App2/Content/androidplayer.jpg</File>
+  </SourceFiles>
+</SourceFileCollection>
