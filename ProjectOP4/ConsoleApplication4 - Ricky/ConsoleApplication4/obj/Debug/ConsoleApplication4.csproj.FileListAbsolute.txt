@@ -52,3 +52,5 @@ C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\Con
 C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.csproj.GenerateResource.Cache
 C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
 C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.Form2.resources
+C:\Users\JasonTjauw\Desktop\ProjectOP4\ProjectOP4\ConsoleApplication4 - Binh\ConsoleApplication4\obj\Debug\ConsoleApplication4.Form2.resources

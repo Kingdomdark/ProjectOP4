@@ -19,13 +19,9 @@ namespace ConsoleApplication4
         public int drop_speed = 5;
         public int score = 0;
         static Random _r = new Random();
+        public int End_Game = 0;
+        Form1 f1;
 
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
         public Form1()
         {
             InitializeComponent();
@@ -57,9 +53,18 @@ namespace ConsoleApplication4
             // no larger than screen size
             this.MaximumSize = new System.Drawing.Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
 
-            this.AutoSize = true;
+            this.AutoSize = false;
             this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
 
+        }
+
+        void DisplayScore()
+        {
+            try
+            {
+                Form.ActiveForm.Text = "Catcher Score:  " + score;
+            }
+            catch (Exception ex) { String s = ex.ToString(); }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -68,6 +73,7 @@ namespace ConsoleApplication4
             int ground = PBchar.Top + PBchar.Height - 45;
             if (PbBlock.Top > ground)
             {
+                End_Game++;
                 score--;
                 PbBlock.Top = 0;
                 drop_speed += 1;
@@ -76,26 +82,33 @@ namespace ConsoleApplication4
                 try
                 {
                     PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    Form.ActiveForm.Text = "Catcher Score:  " + score;
                 }
                 catch (Exception ex) { String s = ex.ToString(); }
-
-                if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
+                DisplayScore();
+            }
+            if (PbBlock.Bounds.IntersectsWith(PBchar.Bounds))
+            {
+                score++;
+                PbBlock.Top = 0;
+                drop_speed += 1;
+                try
                 {
-                    score++;
-                    PbBlock.Top = 0;
-                    drop_speed += 1;
-
-                    PbBlock.Top = 0;
-                    try
-                    {
-                        PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
-                    }
-                    catch (Exception ex) { String s = ex.ToString();
-                    }
+                    PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    Form.ActiveForm.Text = "Catcher Score:  " + score;
                 }
+                catch (Exception ex) { String s = ex.ToString(); }
+                DisplayScore();
+            }
+            else if (End_Game == 3)
+            {
+                MessageBox.Show("YOU LOSE, your score is :  " + score);
+                Application.Exit();
             }
         }
     }
 }
+
+
 
 

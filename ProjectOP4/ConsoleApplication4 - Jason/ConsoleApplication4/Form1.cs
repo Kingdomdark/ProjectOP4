@@ -20,6 +20,7 @@ namespace ConsoleApplication4
         public int score = 0;
         static Random _r = new Random();
         public int End_Game = 0;
+        Form1 f1;
 
         public Form1()
         {
@@ -91,16 +92,17 @@ namespace ConsoleApplication4
                 score++;
                 PbBlock.Top = 0;
                 drop_speed += 1;
-                    try
-                    {
-                        PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
-                        Form.ActiveForm.Text = "Catcher Score:  " + score;
-                    }
+                try
+                {
+                    PbBlock.Left = _r.Next(0, Form1.ActiveForm.Width - PbBlock.Width);
+                    Form.ActiveForm.Text = "Catcher Score:  " + score;
+                }
                 catch (Exception ex) { String s = ex.ToString(); }
                 DisplayScore();
             }
             else if (End_Game == 3)
             {
+                MessageBox.Show("YOU LOSE, your score is :  " + score);
                 Application.Exit();
             }
         }
