@@ -1,0 +1,36 @@
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\Project 4 App2.dll
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\Project 4 App2.pdb
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\Project_4_App2.Project_4_App2.apk
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\Project_4_App2.Project_4_App2-Signed.apk
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\MonoGame.Framework.dll
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\MonoGame.Framework.xml
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\Project 4 App2.dll
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\Project 4 App2.pdb
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\android\bin\Project_4_App2.Project_4_App2.apk
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\res\values\strings.xml
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\res\drawable\icon.png
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\res\drawable\splash.png
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\res\values\styles.xml
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\R.cs.flag
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\uploadflags.txt
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\bin\Android\AnyCPU\Debug\Project 4 App2.dll.mdb
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\android\assets\Project 4 App2.dll.mdb
+c:\users\liwei\onedrive\documenten\visual studio 2017\Projects\Project 4 App2\Project 4 App2\obj\Debug\Project 4 App2.csprojResolveAssemblyReference.cache
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\Project 4 App2.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\Project 4 App2.pdb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\Project_4_App2.Project_4_App2.apk
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\Project_4_App2.Project_4_App2-Signed.apk
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\MonoGame.Framework.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\MonoGame.Framework.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\Project 4 App2.csprojResolveAssemblyReference.cache
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\Project 4 App2.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\Project 4 App2.pdb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\android\bin\Project_4_App2.Project_4_App2.apk
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\res\values\strings.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\res\drawable\icon.png
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\res\drawable\splash.png
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\res\values\styles.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\R.cs.flag
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\uploadflags.txt
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\bin\Android\AnyCPU\Debug\Project 4 App2.dll.mdb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Project 4 App2 edit\Project 4 App2\obj\Debug\android\assets\Project 4 App2.dll.mdb
