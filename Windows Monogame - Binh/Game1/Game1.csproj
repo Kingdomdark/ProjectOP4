@@ -66,6 +66,7 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
+    <None Include="Content\score.xnb" />
     <None Include="obj\x86\Debug\CoreCompileInputs.cache" />
     <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache" />

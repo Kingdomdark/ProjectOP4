@@ -25,7 +25,6 @@ C:\Users\labin\OneDrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\W
 C:\Users\labin\OneDrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
 C:\Users\labin\OneDrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\player.xnb
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
-C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\player.xnb
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.exe
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.pdb
@@ -50,3 +49,5 @@ C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Gam
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.exe
 C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\desktopplayer.xnb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\score.xnb

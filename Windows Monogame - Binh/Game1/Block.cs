@@ -9,17 +9,21 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Game1
 {
+    //Simple Factory Design Pattern for spawning the blocks
     class BlocksFactory
     {
+        static Random _r = new Random();
+        int RandomNumber = _r.Next(0, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height - 385);
         public IBlock Create(int id)
         {
-            if ((id == 1))
+            Console.WriteLine("the floor is lava");
+            if ((id == 1)) //if the id equals 1, make an instance of PointBlock
             {
-                return new PointBlock(new Vector2(200, 200), Color.White);
+                return new PointBlock(new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width,RandomNumber), Color.White);
             }
-            if ((id == 2))
+            if ((id == 2)) //if the id equals 2, make an instance of BombBlock
             {
-                return new BombBlock(new Vector2(200, 200), Color.White);
+                return new BombBlock(new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width, RandomNumber), Color.White);
             }
             else
             {
@@ -27,62 +31,106 @@ namespace Game1
             }
         }
     }
-
-    interface IBlock
+    interface IBlockVisitor
     {
-        void Move();
+        void onBlock(PointBlock block);
+        void onBomb(BombBlock block);
+    }
+    class SetSpriteVisitor : IBlockVisitor //visitor to set the sprite, depending on which class the methods are called
+    {
+        private Texture2D pointblock;
+        private Texture2D bombblock;
+        public SetSpriteVisitor(Texture2D pointblock, Texture2D bombblock)
+        {
+            this.pointblock = pointblock;
+            this.bombblock = bombblock;
+        }
+        public void onBlock(PointBlock block)
+        {
+            block.SetSprite(pointblock);
+        }
+        public void onBomb(BombBlock block)
+        {
+            block.SetSprite(bombblock);
+        }
+    }
+    interface IBlock //interface for the Blocks
+    {
         void Draw(SpriteBatch spritebatch);
         void SetSprite(Texture2D texture);
+        void Visit(IBlockVisitor v);
+        void Update(GameTime gameTime, PlayerAdapter theplayer);
+        Vector2 GetPosition();
     }
     class PointBlock : IBlock
     {
         public Texture2D pointblock;
         private Vector2 position;
         private Color color;
+        static Random _r = new Random();
 
-        public PointBlock(Vector2 position, Color color) : base()
+        public PointBlock(Vector2 position, Color color) : base() //constructor for creating the bombblock
         {
             this.position = position;
             this.color = color;
         }
 
-        public void SetSprite(Texture2D pointblock)
+        public void Visit(IBlockVisitor v) //when visited, returns loads the sprite depending on the type of block, in this case an pointblock
+        {
+            v.onBlock(this); //needs help
+        }
+
+        public Vector2 GetPosition()
+        {
+            return position;
+        }
+        public void SetSprite(Texture2D pointblock) //sets the sprite, so the sprite will be loaded
         {
             this.pointblock = pointblock;
         }
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch) //method to draw the pointblock
         {
             spriteBatch.Draw(pointblock, position, color);
         }
-        public void Move()
+        public void Update(GameTime gameTime, PlayerAdapter theplayer) //method to move the pointblock
         {
-            position.X = position.X - 10;
+            position.X -= theplayer.velocity;
         }
+
     }
 
     class BombBlock : IBlock
     {
-        public Texture2D bombblock;
+        private Texture2D bombblock;
         private Vector2 position;
         private Color color;
 
-        public BombBlock(Vector2 position, Color color) : base()
+        public BombBlock(Vector2 position, Color color) : base() //constructor for creating the bombblock
         {
             this.position = position;
             this.color = color;
         }
+        public void Visit(IBlockVisitor v) //when visited, returns loads the sprite depending on the type of block, in this case an bombblock
+        {
+            v.onBomb(this);//needs help
+        }
 
-        public void SetSprite(Texture2D bombblock)
+        public Vector2 GetPosition()
+        {
+            return position;
+        }
+        public void SetSprite(Texture2D bombblock) //sets the sprite, so the sprite will be loaded
         {
             this.bombblock = bombblock;
         }
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch) //method to draw the bombblock
         {
             spriteBatch.Draw(bombblock, position, color);
         }
-        public void Move()
+        public void Update(GameTime gameTime, PlayerAdapter theplayer) //method to move the bombblock
         {
-            position.X = position.X - 10;
+            position.X -= theplayer.velocity;
+
         }
     }
 }

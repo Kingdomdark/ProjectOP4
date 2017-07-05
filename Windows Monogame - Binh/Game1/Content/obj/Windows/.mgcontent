@@ -4,8 +4,9 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/bombblock.png</File>
+    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/desktopplayer.jpg</File>
     <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/pointblock.png</File>
-    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/player.jpg</File>
+    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/bombblock.png</File>
+    <File>C:/Users/labin/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/score.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>
