@@ -1,0 +1,36 @@
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.dll
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.pdb
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.Game2.apk
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.Game2-Signed.apk
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\MonoGame.Framework.dll
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\MonoGame.Framework.xml
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\Game2.csprojResolveAssemblyReference.cache
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\Game2.dll
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\Game2.pdb
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\android\bin\Game2.Game2.apk
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\res\values\strings.xml
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\res\drawable\icon.png
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\res\drawable\splash.png
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\res\values\styles.xml
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\R.cs.flag
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\uploadflags.txt
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.dll.mdb
+c:\users\jasontjauw\documents\visual studio 2017\Projects\Game2\Game2\obj\Debug\android\assets\Game2.dll.mdb
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.dll
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.pdb
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.Game2.apk
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.Game2-Signed.apk
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\MonoGame.Framework.dll
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\MonoGame.Framework.xml
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\Game2.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\Game2.dll
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\Game2.pdb
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\android\bin\Game2.Game2.apk
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\res\values\strings.xml
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\res\drawable\icon.png
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\res\drawable\splash.png
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\res\values\styles.xml
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\R.cs.flag
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\uploadflags.txt
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\bin\Android\AnyCPU\Debug\Game2.dll.mdb
+C:\Users\JasonTjauw\Desktop\Nieuwe map\Game2\Game2\obj\Debug\android\assets\Game2.dll.mdb

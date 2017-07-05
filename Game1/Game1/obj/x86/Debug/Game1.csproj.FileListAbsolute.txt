@@ -1,0 +1,161 @@
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Game1.exe
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Game1.pdb
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\MonoGame.Framework.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XInput.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\MonoGame.Framework.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XInput.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\obj\x86\Debug\Game1.exe
+c:\users\labin\onedrive\documenten\visual studio 2017\Projects\Game1\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\labin\OneDrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
+C:\Users\labin\OneDrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
+C:\Users\labin\OneDrive\documenten\visual studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\player.xnb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.exe
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.pdb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.exe
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\desktopplayer.xnb
+C:\Users\labin\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\score.xnb
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\desktopplayer.xnb
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\score.xnb
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.exe
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.pdb
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.exe
+C:\Users\liwei\OneDrive\Documenten\GitHub\ProjectOP4\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\desktopplayer.xnb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Content\score.xnb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.exe
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\Game1.pdb
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.exe
+C:\Users\liwei\OneDrive\Documenten\Visual Studio 2017\Projects\Windows Monogame - Binh\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\desktopplayer.xnb
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Content\score.xnb
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Game1.exe
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\Game1.pdb
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\obj\x86\Debug\Game1.exe
+C:\Users\JasonTjauw\Documents\Visual Studio 2017\Projects\Game1\Game1\obj\x86\Debug\Game1.pdb
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\Content\bombblock.xnb
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\Content\desktopplayer.xnb
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\Content\pointblock.xnb
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\Content\score.xnb
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\Game1.exe
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\Game1.pdb
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\JasonTjauw\Desktop\Game1\Game1\obj\x86\Debug\Game1.csprojResolveAssemblyReference.cache
+C:\Users\JasonTjauw\Desktop\Game1\Game1\obj\x86\Debug\Game1.exe
+C:\Users\JasonTjauw\Desktop\Game1\Game1\obj\x86\Debug\Game1.pdb
