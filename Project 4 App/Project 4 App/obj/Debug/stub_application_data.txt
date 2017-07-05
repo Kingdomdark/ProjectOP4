@@ -1,2 +1,0 @@
-android.app.Application
-Project_4_App.Project_4_App
