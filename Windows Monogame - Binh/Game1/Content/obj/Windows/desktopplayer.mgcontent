@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/liwei/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/desktopplayer.jpg</SourceFile>
+  <SourceFile>C:/Users/liwei/OneDrive/Documenten/Visual Studio 2017/Projects/Windows Monogame - Binh/Game1/Content/desktopplayer.jpg</SourceFile>
   <SourceTime>2017-07-05T15:04:53.653136+02:00</SourceTime>
-  <DestFile>C:/Users/liwei/OneDrive/Documenten/GitHub/ProjectOP4/Windows Monogame - Binh/Game1/Content/bin/Windows/desktopplayer.xnb</DestFile>
-  <DestTime>2017-07-05T15:06:45.0549852+02:00</DestTime>
+  <DestFile>C:/Users/liwei/OneDrive/Documenten/Visual Studio 2017/Projects/Windows Monogame - Binh/Game1/Content/bin/Windows/desktopplayer.xnb</DestFile>
+  <DestTime>2017-07-05T18:26:18.6955066+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

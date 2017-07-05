@@ -25,6 +25,7 @@ namespace Game1
         PlayerAdapter player1;
         DesktopPlayer Desktopplayer;
         int lastTime;
+        bool EndGameScreen;
 
         public GameLogic()
         {
@@ -49,6 +50,7 @@ namespace Game1
             // TODO: Add your initialization logic here
             BlocksList = new List<IBlock>();//make a list of blocks available for storage
             base.Initialize();
+            EndGameScreen = false;
         }
 
         /// <summary>
@@ -99,50 +101,49 @@ namespace Game1
             BlocksFactory blocksFactory = new BlocksFactory(); //creates instance of the blocksfactory
 
             //// TODO: Add your update logic here
-
-            var elapsedtime = gameTime.TotalGameTime.Seconds; //gets the elapsed time
-            if (elapsedtime > lastTime && elapsedtime % 2 == 0) //if the elapsed time is divisible by 5,
+            if (EndGameScreen == false)
             {
-                if (count < 5) //if the count is smaller than 5, spawn a pointblock
+                var elapsedtime = gameTime.TotalGameTime.Seconds; //gets the elapsed time
+                if (elapsedtime > lastTime && elapsedtime % 2 == 0) //if the elapsed time is divisible by 5,
                 {
-                    BlocksList.Add(blocksFactory.Create(1));//Create an instance of Pointblock
-                    count += 1; //adds 1 to the count, so you will eventually drop a bomb... read further down
-                    BlocksList[BlocksList.Count - 1].Visit(s_visitor); //visist the block in the blocklist that just been created
+                    if (count < 5) //if the count is smaller than 5, spawn a pointblock
+                    {
+                        BlocksList.Add(blocksFactory.Create(1));//Create an instance of Pointblock
+                        count += 1; //adds 1 to the count, so you will eventually drop a bomb... read further down
+                        BlocksList[BlocksList.Count - 1].Visit(s_visitor); //visist the block in the blocklist that just been created
+                    }
+                    if (count >= 5) //so if the count is greater or equal to 5, spawn a bomb
+                    {
+                        BlocksList.Add(blocksFactory.Create(2));//Create an instance of BombBlock
+                        count = 0;//sets the counter back to 0, so the game will spawn PointBlocks again
+                        BlocksList[BlocksList.Count - 1].Visit(s_visitor); //visist the block in the blocklist that just been created
+                    }
+                    lastTime = elapsedtime;
                 }
-                if (count >= 5) //so if the count is greater or equal to 5, spawn a bomb
+
+                foreach (var block in BlocksList.ToList())//for every block in the list...
                 {
-                    BlocksList.Add(blocksFactory.Create(2));//Create an instance of BombBlock
-                    count = 0;//sets the counter back to 0, so the game will spawn PointBlocks again
-                    BlocksList[BlocksList.Count - 1].Visit(s_visitor); //visist the block in the blocklist that just been created
+                    block.Update(gameTime, player1);
+                    if (block.GetPosition().X <= player1.GetPosition().X + 100 && block.GetPosition().X > 0)
+                        if (block.GetPosition().Y < player1.GetPosition().Y + 100  && block.GetPosition().Y > player1.GetPosition().Y - 100)
+                        {
+                            player1.SetScore();
+                            Console.WriteLine("the score is: " + player1.GetScore());
+                            RemoveBlock();
+                            player1.IncreaseBlockVelocity();
+                        }
+                    if (block.GetPosition().X <= 0)
+                        if (block.GetPosition().Y < player1.GetPosition().Y - 100 || block.GetPosition().Y >= player1.GetPosition().Y + 100)
+                        {
+                            RemoveBlock();
+                            End_Game++;
+                            Console.WriteLine("The end game value is " + End_Game);
+                            player1.IncreaseBlockVelocity();
+                        }
                 }
-                lastTime = elapsedtime;
+                player1.Update(gameTime);
             }
 
-            foreach (var block in BlocksList.ToList())//for every block in the list...
-            {
-                block.Update(gameTime, player1);
-                if (block.GetPosition().X <= player1.GetPosition().X + 100 && block.GetPosition().X > 0)
-                    if (block.GetPosition().Y < player1.GetPosition().Y + 100  && block.GetPosition().Y > player1.GetPosition().Y - 100)
-                    {
-                        player1.SetScore();
-                        Console.WriteLine("the score is: " + player1.GetScore());
-                        RemoveBlock();
-                        player1.IncreaseBlockVelocity();
-                    }
-                if (block.GetPosition().X <= 0)
-                    if (block.GetPosition().Y < player1.GetPosition().Y - 100 || block.GetPosition().Y >= player1.GetPosition().Y + 100)
-                    {
-                        RemoveBlock();
-                        End_Game++;
-                        Console.WriteLine("The end game value is " + End_Game);
-                        player1.IncreaseBlockVelocity();
-                    }
-            }
-            player1.Update(gameTime);
-            if (End_Game >= 3)
-            {
-                ENDTHEFUCKINGGAME();
-            }
             base.Update(gameTime);
         }
 
@@ -167,7 +168,8 @@ namespace Game1
 
             if (End_Game >= 3)
             {
-                spriteBatch.DrawString(point, "End Game", new Vector2(800, 400), Color.Black);
+                spriteBatch.DrawString(point, "End of the game. Your score was: " + player1.GetScore(), new Vector2(800, 400), Color.Black);
+                EndGameScreen = true;
             }
             spriteBatch.End();//end a sprite batch operation
             base.Draw(gameTime);
