@@ -16,10 +16,9 @@ namespace Game1
         int RandomNumber = _r.Next(0, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height - 385);
         public IBlock Create(int id)
         {
-            Console.WriteLine("the floor is lava");
             if ((id == 1)) //if the id equals 1, make an instance of PointBlock
             {
-                return new PointBlock(new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width,RandomNumber), Color.White);
+                return new PointBlock(new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width, RandomNumber), Color.White);
             }
             if ((id == 2)) //if the id equals 2, make an instance of BombBlock
             {
@@ -75,11 +74,10 @@ namespace Game1
             this.color = color;
         }
 
-        public void Visit(IBlockVisitor v) //when visited, returns loads the sprite depending on the type of block, in this case an pointblock
+        public void Visit(IBlockVisitor v) //when visited, loads the sprite depending on the type of block, in this case an pointblock
         {
-            v.onBlock(this); //needs help
+            v.onBlock(this); 
         }
-
         public Vector2 GetPosition()
         {
             return position;
@@ -96,7 +94,6 @@ namespace Game1
         {
             position.X -= theplayer.velocity;
         }
-
     }
 
     class BombBlock : IBlock
@@ -110,11 +107,10 @@ namespace Game1
             this.position = position;
             this.color = color;
         }
-        public void Visit(IBlockVisitor v) //when visited, returns loads the sprite depending on the type of block, in this case an bombblock
+        public void Visit(IBlockVisitor v) //when visited, loads the sprite depending on the type of block, in this case an bombblock
         {
-            v.onBomb(this);//needs help
+            v.onBomb(this);
         }
-
         public Vector2 GetPosition()
         {
             return position;
@@ -127,10 +123,9 @@ namespace Game1
         {
             spriteBatch.Draw(bombblock, position, color);
         }
-        public void Update(GameTime gameTime, PlayerAdapter theplayer) //method to move the bombblock
+        public void Update(GameTime gameTime, PlayerAdapter theplayer) //method update the game
         {
             position.X -= theplayer.velocity;
-
         }
     }
 }

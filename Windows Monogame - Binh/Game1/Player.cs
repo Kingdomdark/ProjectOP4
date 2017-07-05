@@ -62,7 +62,7 @@ namespace Game1
 
         public Vector2 GetPosition()
         {
-            return position;
+            return thePlayer.position;
         }
     }
     public class AndroidPlayer : IPlayer
@@ -110,9 +110,9 @@ namespace Game1
 
     public class DesktopPlayer : IPlayer
     {
-        private Texture2D desktopplayer;
-        private Vector2 position;
-        private Color color;
+        public Texture2D desktopplayer;
+        public Vector2 position;
+        public Color color;
 
         public DesktopPlayer(Vector2 position, Color color)
         {
@@ -144,7 +144,7 @@ namespace Game1
                 this.position.Y -= 10; //move 10px to the left
             }
 
-            if (kbstate.IsKeyDown(Keys.Down) == true && this.position.Y < GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height - 385)//if the right key is pressed and the position isn't at the edge...
+            if (kbstate.IsKeyDown(Keys.Down) == true && this.position.Y < GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height - (280 + 125))//if the right key is pressed and the position isn't at the edge...
             {
                 this.position.Y += 10; //move 10pc to the right
             }

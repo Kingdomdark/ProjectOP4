@@ -16,7 +16,6 @@ namespace Game1
     {
         int count = 0; //created so you know you will spawn a bomb or a block
         int End_Game = 0;
-        int score = 0;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SetSpriteVisitor s_visitor;
@@ -33,8 +32,8 @@ namespace Game1
             Content.RootDirectory = "Content";
 
             graphics.IsFullScreen = false;
-            //graphics.PreferredBackBufferHeight = 800;
-            //graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 800;
+            graphics.PreferredBackBufferWidth = 1600;
             Desktopplayer = new DesktopPlayer(new Vector2(0,0), Color.Black);
             player1 = new PlayerAdapter(Desktopplayer, new Vector2(0,0), Color.Black);//creates an instance of the desktopplayer
         }
@@ -102,7 +101,7 @@ namespace Game1
             //// TODO: Add your update logic here
 
             var elapsedtime = gameTime.TotalGameTime.Seconds; //gets the elapsed time
-            if (elapsedtime > lastTime && elapsedtime % 3 == 0) //if the elapsed time is divisible by 5,
+            if (elapsedtime > lastTime && elapsedtime % 2 == 0) //if the elapsed time is divisible by 5,
             {
                 if (count < 5) //if the count is smaller than 5, spawn a pointblock
                 {
@@ -116,7 +115,6 @@ namespace Game1
                     count = 0;//sets the counter back to 0, so the game will spawn PointBlocks again
                     BlocksList[BlocksList.Count - 1].Visit(s_visitor); //visist the block in the blocklist that just been created
                 }
-
                 lastTime = elapsedtime;
             }
 
@@ -124,12 +122,11 @@ namespace Game1
             {
                 block.Update(gameTime, player1);
                 if (block.GetPosition().X <= player1.GetPosition().X + 100 && block.GetPosition().X > 0)
-                    if (block.GetPosition().Y > player1.GetPosition().Y - 100 && block.GetPosition().Y < player1.GetPosition().Y + 100)
+                    if (block.GetPosition().Y < player1.GetPosition().Y + 100  && block.GetPosition().Y > player1.GetPosition().Y - 100)
                     {
                         player1.SetScore();
                         Console.WriteLine("the score is: " + player1.GetScore());
                         RemoveBlock();
-                        score++;
                         player1.IncreaseBlockVelocity();
                     }
                 if (block.GetPosition().X <= 0)
@@ -142,8 +139,10 @@ namespace Game1
                     }
             }
             player1.Update(gameTime);
-
-            //make the logic for catching the blocks. if bomb is caught, end the game. if 3 blocks reach the ground, end the game.
+            if (End_Game >= 3)
+            {
+                ENDTHEFUCKINGGAME();
+            }
             base.Update(gameTime);
         }
 
@@ -159,10 +158,16 @@ namespace Game1
 
             spriteBatch.Begin();//Begins a sprite batch operation
             player1.Draw(spriteBatch);//Draw the player1, which is an instance of the PlayerAdapter
-            spriteBatch.DrawString(point, "score: " + score, new Vector2(100, 100), Color.Black);
+            spriteBatch.DrawString(point, "score: " + player1.GetScore(), new Vector2(100, 100), Color.Black);
+
             foreach (var block in BlocksList)//for every block in the list...
             {
                 block.Draw(spriteBatch);//call the method draw, which draws the blocks
+            }
+
+            if (End_Game >= 3)
+            {
+                spriteBatch.DrawString(point, "End Game", new Vector2(800, 400), Color.Black);
             }
             spriteBatch.End();//end a sprite batch operation
             base.Draw(gameTime);
@@ -171,6 +176,9 @@ namespace Game1
         public void RemoveBlock()
         {
             BlocksList.RemoveAt(0);
+        }
+        public void ENDTHEFUCKINGGAME()
+        {
         }
     }
 }
